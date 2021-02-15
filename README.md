@@ -17,7 +17,7 @@ Due to potential academic dishonesty by the ninth grade students of Thomas High 
   - Thomas High School was no longer included on the list of top five schools.
 
 - When the ninth graders' of Thomas High School had their scores omitted from the calculations, the following changes occured:
-  - Overall Passing Percentages and Average Scores were only slightly changed from the first trial.
+  - Overall Passing Percentages and Average Scores for Thomas High School were only slightly changed from the first trial.
     - Average Scores for Math and Reading *increased* by 0.06
     - Overall Passing Percentages decreased by 0.11%
   - **School rankings are unchanged.** Thomas High School is still the second best performing school in the district with an overall passing rate of 90.63% among their tenth through twelfth graders.
@@ -28,7 +28,7 @@ It is found that Average Scores and Passing Percentages do not increase as spend
 ![school_budget_per_student_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_budget_per_student_df.png)
 
 
-When considering School Size, "Large" Schools (Over 2,000 Students) have the lowest average scores and passing percentages. The difference in performance between "Small" and "Medium" Size Schools is negligible (< 1%).
+When considering School Size, "Large" Schools (Over 2,000 Students) have the lowest average scores and passing percentages. The difference in performance between "Small" and "Medium" Size Schools is negligible (approximately 1%).
 
 ![school_size_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_size_df.png)
 
