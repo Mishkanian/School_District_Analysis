@@ -9,7 +9,7 @@
 **Software:** Python 3.7, Anaconda, Jupyter Notebook
 
 ## Results
-Due to potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School were omitted from the dataset.
+Due to the potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School were omitted from the dataset.
 
 - Replacing the ninth graders' math and reading scores with NaN resulted in the following changes for Thomas High School:
 
