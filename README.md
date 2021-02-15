@@ -20,7 +20,7 @@ Due to potential academic dishonesty by the ninth grade students of Thomas High 
   - Overall Passing Percentages and Average Scores were only slightly changed from the first trial.
     - Average Scores for Math and Reading *increased* by 0.06
     - Overall Passing Percentages decreased by 0.11%
-  - **School rankings are unchanged.** Thomas High School is still the second best performing school in the district with an overall passing rate of 90.63%
+  - **School rankings are unchanged.** Thomas High School is still the second best performing school in the district with an overall passing rate of 90.63% among their tenth through twelfth graders.
 
 ### The Effects of School Budget and School Size
 It is found that Average Scores and Passing Percentages do not increase as spending per student increases. In fact, there appears to be a negative relation between spending and Overall Passing Percentages.
@@ -38,8 +38,8 @@ Charter schools generally performed better than District schools in this analysi
 ![school_type_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_type_df.png)
 
 ## Summary
-Omitting the ninth grade students of Thomas High School from the dataset did not materially change any outcomes of this analysis.
+Omitting the ninth grade student scores of Thomas High School from the dataset did not materially change any outcomes of this analysis.
 
 **Author: Michael Mishkanian**  
 
-For all questions or inquireies, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
+For all questions and inquireies, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
