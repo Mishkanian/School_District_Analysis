@@ -9,7 +9,7 @@
 **Software:** Python 3.7, Anaconda, Jupyter Notebook
 
 ## Results
-Due to the potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School were omitted from the dataset. For consistency, all DataFrames below are generated only from the second trial of analysis.
+Due to the potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School were omitted from the dataset. For consistency, all DataFrames below are only generated from the second trial of analysis.
 
 - Replacing the ninth graders' math and reading scores with NaN resulted in the following changes for Thomas High School:
   - The Passing Percentages and Average Scores were only slightly changed.
@@ -36,4 +36,5 @@ Charter schools generally performed better than District schools in this analysi
 
 
 **Author: Michael Mishkanian**  
-For any questions or inquireies, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
+
+For all questions or inquireies, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
