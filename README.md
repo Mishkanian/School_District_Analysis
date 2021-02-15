@@ -9,12 +9,17 @@
 **Software:** Python 3.7, Anaconda, Jupyter Notebook
 
 ## Results
-Due to the potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School were omitted from the dataset. For consistency, all DataFrames below are only generated from the second trial of analysis.
+Due to potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School had their scores omitted from the calculations. For consistency, all DataFrames below are only generated from the second trial of analysis.
 
 - Replacing the ninth graders' math and reading scores with NaN resulted in the following changes for Thomas High School:
-  - The Passing Percentages and Average Scores were only slightly changed.
+  - The overall passing percentage for Thomas High School fell to 65%.
+  - The overall passing percentage for the entire district fell to 64.9%.
+  - Thomas High School was no longer included on the list of top five schools.
+
+- When the ninth graders' of Thomas High School had their scores omitted from the calculations, the following changes occured:
+  - Overall Passing Percentages and Average Scores were only slightly changed from the first trial.
     - Average Scores for Math and Reading *increased* by 0.06
-    - **Overall Passing Percentages decreased** by 0.11%
+    - Overall Passing Percentages decreased by 0.11%
   - **School rankings are unchanged.** Thomas High School is still the second best performing school in the district with an overall passing rate of 90.63%
 
 ### The Effects of School Budget and School Size
@@ -23,7 +28,7 @@ It is found that Average Scores and Passing Percentages do not increase as spend
 ![school_budget_per_student_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_budget_per_student_df.png)
 
 
-When considering School Size, "Large" Schools (Over 2,000 Students) have the lowest average scores and passing percentages. The difference in performance between "Small" and "Medium" Size Schools is negligable (< 1%).
+When considering School Size, "Large" Schools (Over 2,000 Students) have the lowest average scores and passing percentages. The difference in performance between "Small" and "Medium" Size Schools is negligible (< 1%).
 
 ![school_size_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_size_df.png)
 
@@ -33,7 +38,7 @@ Charter schools generally performed better than District schools in this analysi
 ![school_type_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_type_df.png)
 
 ## Summary
-
+Omitting the ninth grade students of Thomas High School from the dataset did not materially change any outcomes of this analysis.
 
 **Author: Michael Mishkanian**  
 
