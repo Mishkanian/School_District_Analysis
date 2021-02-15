@@ -23,7 +23,8 @@ It is found that Average Scores and Passing Percentages do not increase as spend
 [school_budget_per_student_df]
 
 
-When considering School Size, "Large" Schools (Over 2,000 Students) have the lowest average scores and passing percentages. The difference between the performance of "Small" and "Medium" Size Schools is negligable (<1%).
+When considering School Size, "Large" Schools (Over 2,000 Students) have the lowest average scores and passing percentages. The difference in performance between "Small" and "Medium" Size Schools is negligable (< 1%).
+
 [school_size_df]
 
 ### Charter vs. District Schools
