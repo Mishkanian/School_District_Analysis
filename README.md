@@ -4,7 +4,7 @@
 ### The purpose of this project is to analyze the data of an entire School District, such as funding and student grades, to learn new insights and visually provide clear results on each school's performance. Additionally, to uphold state-testing standards, this analysis was conduced twice due to potential academic dishonesty among a group of students. The implications of omitting the potentially dishonest data is also discussed.
 ---
 ## Resources
-**Resources:** All data used in this analysis is found inside the [Resources](https://github.com/Mishkanian/School_District_Analysis/tree/main/Resources) folder.
+**Resources:** All data used in this analysis is found inside of the [Resources](https://github.com/Mishkanian/School_District_Analysis/tree/main/Resources) folder.
 
 **Software:** Python 3.7, Anaconda, Jupyter Notebook
 
