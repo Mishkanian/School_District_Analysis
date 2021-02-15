@@ -20,17 +20,17 @@ Due to the potential academic dishonesty by the ninth grade students of Thomas H
 ### The Effects of School Budget and School Size
 It is found that Average Scores and Passing Percentages do not increase as spending per student increases. In fact, there appears to be a negative relation between spending and Overall Passing Percentages.
 
-[school_budget_per_student_df]
+![school_budget_per_student_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_budget_per_student_df.png)
 
 
 When considering School Size, "Large" Schools (Over 2,000 Students) have the lowest average scores and passing percentages. The difference in performance between "Small" and "Medium" Size Schools is negligable (< 1%).
 
-[school_size_df]
+![school_size_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_size_df.png)
 
 ### Charter vs. District Schools
 Charter schools generally performed better than District schools in this analysis. The top five schools with the highest overall passing percentages are all Charter schools, whereas the bottom five are all District Schools. As seen in the DataFrame below, **Charter schools have a 36% higher overall passing percentage** than District schools.
 
-[school_type_df]
+![school_type_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_type_df.png)
 
 ## Summary
 
