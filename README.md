@@ -9,7 +9,7 @@
 **Software:** Python 3.7, Anaconda, Jupyter Notebook
 
 ## Results
-Due to potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School had their scores omitted from the calculations. The entire ninth grade class of Thomas High School have had their scores replaced with NaN. The DataFrame below is a summary representing the District after replacing the ninth graders' scores.
+Due to potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School had their scores omitted from the calculations. The entire ninth grade class of Thomas High School have had their scores replaced with NaN. The DataFrame below is a summary representing the District after replacing the ninth graders' scores with NaN.
 ![district_overview](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/district_overview.png)
 
 - Replacing the ninth graders' math and reading scores with NaN resulted in the following changes for Thomas High School:
@@ -44,9 +44,9 @@ After analyzing the average scores for math and reading by grade level for each 
 To see the detailed breakdown of Average Math Scores by grade, please click [here](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/math_scores_grade.png). Alternatively, if you would like to view the Average Reading Scores by grade, please click [here](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/reading_scores_grade.png).
 
 ## Summary
-Relacing the ninth graders' scores with NaN caused Thomas High School's overall passing percentages and average scores to plummet. 
+Unfortunately, it was not possible to determine the extent of the potential academic dishonesty or identify soecific indivuals to exclude from the dataset. As a consequence of this, the entire ninth grade of students from Thomas High School have had their scores omitted from the results. This is a suboptimal situation because a full set of data is ideal for creating the most accurate results.
 
-However, after updating the total student counts to exclude the Thomas High School ninth graders and omitting their scores from the dataset, there was not a drastic change in any of outcomes of this analysis.
+Relacing the ninth graders' scores with NaN caused Thomas High School's overall passing percentages and average scores to plummet. The district as a whole also had thier average math and reading scores decrease, as well as the overall passing percentage for students. Furthermore, Thomas High School lost their placement as a top five school within this District. However, after updating the total student counts to exclude the Thomas High School ninth graders and omitting their scores from the dataset, Thomas High School regained their high average scores and retained their position as the number two school in the District.
 
 **Author: Michael Mishkanian**  
 
