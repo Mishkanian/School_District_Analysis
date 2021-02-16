@@ -9,7 +9,8 @@
 **Software:** Python 3.7, Anaconda, Jupyter Notebook
 
 ## Results
-Due to potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School had their scores omitted from the calculations. For consistency, all DataFrames below are only generated from the second trial of analysis.
+Due to potential academic dishonesty by the ninth grade students of Thomas High School, this analysis was conducted twice. The first trial of this analysis included the full set of student data. In the second trial of this analysis, the ninth grade students of Thomas High School had their scores omitted from the calculations. The entire ninth grade class of Thomas High School have had their scores replaced with NaN. The DataFrame below is a summary representing the District after replacing the ninth graders' scores.
+![district_overview](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/district_overview.png)
 
 - Replacing the ninth graders' math and reading scores with NaN resulted in the following changes for Thomas High School:
   - The overall passing percentage for Thomas High School fell to 65%.
@@ -37,8 +38,15 @@ Charter schools generally performed better than District schools in this analysi
 
 ![school_type_df](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/school_type_df.png)
 
+### Average Scores by Grade Level
+After analyzing the average scores for math and reading by grade level for each school, it is found that a students grade level does not affect their scores as much as the school that they attend. The average scores within each school only varries by 1-2% depending on grade level. However, the difference in scores is more apparent when comparing different schools. 
+
+To see the detailed breakdown of Average Math Scores by grade, please click [here](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/math_scores_grade.png). Alternatively, if you would like to view the Average Reading Scores by grade, please click [here](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/reading_scores_grade.png).
+
 ## Summary
-Omitting the ninth grade student scores of Thomas High School from the dataset did not materially change any outcomes of this analysis.
+Relacing the ninth graders' scores with NaN caused Thomas High School's overall passing percentages and average scores to plummet. 
+
+However, after updating the total student counts to exclude the Thomas High School ninth graders and omitting their scores from the dataset, there was not a drastic change in any of outcomes of this analysis.
 
 **Author: Michael Mishkanian**  
 
