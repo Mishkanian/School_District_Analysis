@@ -13,14 +13,14 @@ Due to potential academic dishonesty by the ninth grade students of Thomas High 
 ![district_overview](https://github.com/Mishkanian/School_District_Analysis/blob/main/DataFrames_PyCity/district_overview.png)
 
 - Replacing the ninth graders' math and reading scores with NaN resulted in the following changes for Thomas High School:
-  - The overall passing percentage for Thomas High School fell to 65%.
-  - The overall passing percentage for the entire district fell to 64.9%.
+  - The overall passing percentage for Thomas High School fell to 65%
+  - The overall passing percentage for the entire district fell to 64.9%
   - Thomas High School was no longer included on the list of top five schools.
 
 - When the ninth graders' of Thomas High School had their scores omitted from the calculations, the following changes occured:
-  - Overall Passing Percentages and Average Scores for Thomas High School were only slightly changed from the first trial.
-    - Average Scores for Math and Reading *increased* by 0.06
-    - Overall Passing Percentages decreased by 0.11%
+  - The overall passing percentages of Thomas High School decreased by 0.11%
+  - The average scores of Thomas High School for math and reading *increased* by 0.06
+  - For the spending range of $630-644 per student, the overall passing percentage decreased by 0.1%
   - **School rankings are unchanged.** Thomas High School is still the second best performing school in the district with an overall passing rate of 90.63% among their tenth through twelfth graders.
 
 ### The Effects of School Budget and School Size
@@ -46,8 +46,9 @@ To see the detailed breakdown of Average Math Scores by grade, please click [her
 ## Summary
 Unfortunately, it was not possible to determine the extent of the potential academic dishonesty or identify soecific indivuals to exclude from the dataset. As a consequence of this, the entire ninth grade of students from Thomas High School have had their scores omitted from the results. This is a suboptimal situation because a full set of data is ideal for creating the most accurate results.
 
-Relacing the ninth graders' scores with NaN caused Thomas High School's overall passing percentages and average scores to plummet. The district as a whole also had thier average math and reading scores decrease, as well as the overall passing percentage for students. Furthermore, Thomas High School lost their placement as a top five school within this District. However, after updating the total student counts to exclude the Thomas High School ninth graders and omitting their scores from the dataset, Thomas High School regained their high average scores and retained their position as the number two school in the District.
+Relacing the ninth graders' scores with NaN caused Thomas High School's overall passing percentages and average scores to plummet. The district as a whole also had thier average math and reading scores decrease, as well as the overall passing percentage for students. Furthermore, Thomas High School lost their placement as a top five school within this District. However, after updating the total student counts to exclude the Thomas High School ninth graders and omitting their scores from the dataset, Thomas High School regained their high average scores and retained their position as the number two school in the District. To view the full script, please open PyCitySchools_Challenge.ipynb in Jupyter Notebook.
+
 
 **Author: Michael Mishkanian**  
 
-For all questions and inquireies, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
+For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
